@@ -1,0 +1,29 @@
+C:\Users\Yoga\Desktop\8th semester\inforamtion processing techniques\project\FYP_Evaluation\FYP_Evaluation\bin\Debug\FYP_Evaluation.exe.config
+C:\Users\Yoga\Desktop\8th semester\inforamtion processing techniques\project\FYP_Evaluation\FYP_Evaluation\bin\Debug\FYP_Evaluation.exe
+C:\Users\Yoga\Desktop\8th semester\inforamtion processing techniques\project\FYP_Evaluation\FYP_Evaluation\bin\Debug\FYP_Evaluation.pdb
+C:\Users\Yoga\Desktop\8th semester\inforamtion processing techniques\project\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.csprojAssemblyReference.cache
+C:\Users\Yoga\Desktop\8th semester\inforamtion processing techniques\project\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.Properties.Resources.resources
+C:\Users\Yoga\Desktop\8th semester\inforamtion processing techniques\project\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.csproj.GenerateResource.cache
+C:\Users\Yoga\Desktop\8th semester\inforamtion processing techniques\project\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.exe
+C:\Users\Yoga\Desktop\8th semester\inforamtion processing techniques\project\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.pdb
+C:\Users\Yoga\Desktop\8th semester\inforamtion processing techniques\project\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.Dashboard.resources
+C:\Users\Yoga\Desktop\8th semester\inforamtion processing techniques\project\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.ProposalEvaluationform.resources
+C:\Users\Yoga\Desktop\8th semester\inforamtion processing techniques\project\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.ProposalForm.resources
+C:\Users\Yoga\Desktop\8th semester\inforamtion processing techniques\project\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.Fyp1Final.resources
+C:\Users\HP\Desktop\FYP_Evaluation\FYP_Evaluation\FYP_Evaluation\bin\Debug\FYP_Evaluation.exe.config
+C:\Users\HP\Desktop\FYP_Evaluation\FYP_Evaluation\FYP_Evaluation\bin\Debug\FYP_Evaluation.exe
+C:\Users\HP\Desktop\FYP_Evaluation\FYP_Evaluation\FYP_Evaluation\bin\Debug\FYP_Evaluation.pdb
+C:\Users\HP\Desktop\FYP_Evaluation\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\FYP_Evaluation\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.Dashboard.resources
+C:\Users\HP\Desktop\FYP_Evaluation\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.Fyp1Final.resources
+C:\Users\HP\Desktop\FYP_Evaluation\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.Properties.Resources.resources
+C:\Users\HP\Desktop\FYP_Evaluation\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.ProposalEvaluationform.resources
+C:\Users\HP\Desktop\FYP_Evaluation\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.ProposalForm.resources
+C:\Users\HP\Desktop\FYP_Evaluation\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\FYP_Evaluation\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\FYP_Evaluation\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.exe
+C:\Users\HP\Desktop\FYP_Evaluation\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.pdb
+C:\Users\HP\Desktop\FYP_Evaluation\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.SupervisorProposalForm.resources
+C:\Users\HP\Desktop\FYP_Evaluation\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.Fyp2FinalExternalEvaluation.resources
+C:\Users\HP\Desktop\FYP_Evaluation\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.Fyp2FinalJuryEvaluation.resources
+C:\Users\HP\Desktop\FYP_Evaluation\FYP_Evaluation\FYP_Evaluation\obj\Debug\FYP_Evaluation.Fyp2MidEvaluationForm.resources
