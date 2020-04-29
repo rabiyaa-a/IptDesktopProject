@@ -65,8 +65,10 @@
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.submit = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label15 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -212,6 +214,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(126, 24);
             this.textBox2.TabIndex = 84;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox1
             // 
@@ -274,7 +277,7 @@
             // label11
             // 
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(30, 308);
+            this.label11.Location = new System.Drawing.Point(30, 317);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(718, 45);
@@ -482,29 +485,18 @@
             this.label14.Location = new System.Drawing.Point(29, 684);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(113, 20);
+            this.label14.Size = new System.Drawing.Size(129, 20);
             this.label14.TabIndex = 107;
-            this.label14.Text = "Evaluator ID";
+            this.label14.Text = "Evaluator 1 ID";
             // 
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(184, 684);
+            this.textBox6.Location = new System.Drawing.Point(184, 681);
             this.textBox6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(126, 24);
             this.textBox6.TabIndex = 108;
-            // 
-            // submit
-            // 
-            this.submit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.submit.Location = new System.Drawing.Point(270, 724);
-            this.submit.Margin = new System.Windows.Forms.Padding(2);
-            this.submit.Name = "submit";
-            this.submit.Size = new System.Drawing.Size(232, 37);
-            this.submit.TabIndex = 109;
-            this.submit.Text = "Submit";
-            this.submit.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -514,14 +506,48 @@
             this.panel1.Size = new System.Drawing.Size(694, 17);
             this.panel1.TabIndex = 110;
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.IndianRed;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(259, 725);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(268, 37);
+            this.button2.TabIndex = 111;
+            this.button2.Text = "Submit";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.900001F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(370, 683);
+            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(129, 20);
+            this.label15.TabIndex = 112;
+            this.label15.Text = "Evaluator 2 ID";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.Location = new System.Drawing.Point(532, 681);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(126, 24);
+            this.textBox7.TabIndex = 113;
+            // 
             // Fyp2MidEvaluationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(786, 793);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.submit);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.textBox12);
@@ -605,7 +631,9 @@
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Button submit;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox textBox7;
     }
 }

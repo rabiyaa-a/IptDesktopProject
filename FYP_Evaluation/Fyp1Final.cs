@@ -15,6 +15,14 @@ namespace FYP_Evaluation
         public Fyp1Final()
         {
             InitializeComponent();
+            textBox2.Enabled = false;
+            textBox3.Enabled = false;
+            textBox6.Enabled = false;
+            textBox5.Enabled = false;
+            textBox4.Enabled = false;
+            textBox13.Enabled = false;
+            textBox14.Enabled = false;
+            textBox15.Enabled = false;
         }
 
         private void Fyp1Final_Load(object sender, EventArgs e)
@@ -58,6 +66,11 @@ namespace FYP_Evaluation
         }
 
         private void textBox12_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -132,7 +132,7 @@ namespace FYP_Evaluation
             childform.Show();
         }
 
-        private void button5_Click_1(object sender, EventArgs e)
+        private void button5_Click_2(object sender, EventArgs e)
         {
             openchildform(new SupervisorProposalForm());
 

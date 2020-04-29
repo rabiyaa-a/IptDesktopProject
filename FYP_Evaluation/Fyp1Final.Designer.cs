@@ -80,9 +80,6 @@
             this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
             this.label30 = new System.Windows.Forms.Label();
             this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
-            this.label31 = new System.Windows.Forms.Label();
-            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
-            this.label32 = new System.Windows.Forms.Label();
             this.textBox17 = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
             this.textBox18 = new System.Windows.Forms.TextBox();
@@ -90,13 +87,12 @@
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.submit = new System.Windows.Forms.Button();
             this.label33 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -107,7 +103,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -198,6 +193,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(201, 24);
             this.textBox5.TabIndex = 24;
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // label8
             // 
@@ -295,7 +291,7 @@
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(24, 1555);
+            this.panel1.Location = new System.Drawing.Point(23, 1497);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(694, 17);
@@ -644,42 +640,10 @@
             this.numericUpDown8.Size = new System.Drawing.Size(94, 24);
             this.numericUpDown8.TabIndex = 75;
             // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(358, 1352);
-            this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(220, 18);
-            this.label31.TabIndex = 80;
-            this.label31.Text = "Suggested Marks out of 100";
-            // 
-            // numericUpDown9
-            // 
-            this.numericUpDown9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown9.Location = new System.Drawing.Point(608, 1352);
-            this.numericUpDown9.Margin = new System.Windows.Forms.Padding(2);
-            this.numericUpDown9.Name = "numericUpDown9";
-            this.numericUpDown9.Size = new System.Drawing.Size(94, 24);
-            this.numericUpDown9.TabIndex = 79;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.900001F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(19, 1352);
-            this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(92, 20);
-            this.label32.TabIndex = 77;
-            this.label32.Text = "Member 4";
-            this.label32.Click += new System.EventHandler(this.label32_Click);
-            // 
             // textBox17
             // 
             this.textBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox17.Location = new System.Drawing.Point(487, 1420);
+            this.textBox17.Location = new System.Drawing.Point(489, 1381);
             this.textBox17.Margin = new System.Windows.Forms.Padding(2);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(154, 24);
@@ -689,7 +653,7 @@
             // 
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.900001F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(357, 1422);
+            this.label35.Location = new System.Drawing.Point(357, 1383);
             this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(86, 20);
@@ -699,7 +663,7 @@
             // textBox18
             // 
             this.textBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox18.Location = new System.Drawing.Point(133, 1420);
+            this.textBox18.Location = new System.Drawing.Point(133, 1381);
             this.textBox18.Margin = new System.Windows.Forms.Padding(2);
             this.textBox18.Name = "textBox18";
             this.textBox18.Size = new System.Drawing.Size(154, 24);
@@ -709,7 +673,7 @@
             // 
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.900001F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(19, 1424);
+            this.label34.Location = new System.Drawing.Point(19, 1384);
             this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(86, 20);
@@ -744,30 +708,10 @@
             this.textBox15.Size = new System.Drawing.Size(154, 24);
             this.textBox15.TabIndex = 88;
             // 
-            // textBox16
-            // 
-            this.textBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.Location = new System.Drawing.Point(120, 1349);
-            this.textBox16.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(154, 24);
-            this.textBox16.TabIndex = 89;
-            // 
-            // submit
-            // 
-            this.submit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.submit.Location = new System.Drawing.Point(242, 1473);
-            this.submit.Margin = new System.Windows.Forms.Padding(2);
-            this.submit.Name = "submit";
-            this.submit.Size = new System.Drawing.Size(232, 37);
-            this.submit.TabIndex = 90;
-            this.submit.Text = "Submit";
-            this.submit.UseVisualStyleBackColor = true;
-            // 
             // label33
             // 
             this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.900001F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(-4, 1523);
+            this.label33.Location = new System.Drawing.Point(19, 1475);
             this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(720, 20);
@@ -816,6 +760,18 @@
             this.comboBox1.Size = new System.Drawing.Size(576, 24);
             this.comboBox1.TabIndex = 94;
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.IndianRed;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(243, 1436);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(268, 37);
+            this.button2.TabIndex = 95;
+            this.button2.Text = "Submit";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
             // Fyp1Final
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -823,12 +779,11 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(764, 545);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label37);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.submit);
-            this.Controls.Add(this.textBox16);
             this.Controls.Add(this.textBox15);
             this.Controls.Add(this.textBox14);
             this.Controls.Add(this.textBox13);
@@ -837,9 +792,6 @@
             this.Controls.Add(this.label35);
             this.Controls.Add(this.textBox18);
             this.Controls.Add(this.label34);
-            this.Controls.Add(this.label31);
-            this.Controls.Add(this.numericUpDown9);
-            this.Controls.Add(this.label32);
             this.Controls.Add(this.label30);
             this.Controls.Add(this.numericUpDown8);
             this.Controls.Add(this.label29);
@@ -905,7 +857,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -963,9 +914,6 @@
         private System.Windows.Forms.NumericUpDown numericUpDown7;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.NumericUpDown numericUpDown8;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.NumericUpDown numericUpDown9;
-        private System.Windows.Forms.Label label32;
         private System.Windows.Forms.TextBox textBox17;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.TextBox textBox18;
@@ -973,12 +921,11 @@
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.Button submit;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button2;
     }
 }

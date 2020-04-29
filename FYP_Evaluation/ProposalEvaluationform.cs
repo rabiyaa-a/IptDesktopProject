@@ -15,6 +15,9 @@ namespace FYP_Evaluation
         public ProposalEvaluationform()
         {
             InitializeComponent();
+            textBox2.Enabled = false;
+            textBox5.Enabled = false;
+            textBox4.Enabled = false;
         }
 
         private void ProposalEvaluationform_Load(object sender, EventArgs e)
@@ -50,6 +53,11 @@ namespace FYP_Evaluation
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
